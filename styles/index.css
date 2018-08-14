@@ -1,17 +1,17 @@
 .jd{
 /*     height: 480px; */
-    background-color: pink;
+/*     background-color: pink; */
     position: relative;
 }
 .jd-inner{
     height: 480px;
-    background-color: skyblue;
+/*     background-color: skyblue; */
     position: relative;
     z-index: 1;     /* 只有定位的盒子才有z-index */
 }
 .ad{
     height: 480px;
-    background: url(../images/bg.png) no-repeat top center;
+/*     background: url(../images/bg.png) no-repeat top center; */   /* 广告部分 */
     position: absolute;
     top: 0;
     left: 0;
@@ -47,15 +47,163 @@
 }
 
 .jd-clo2{
-    width: 790px;
-    height: 480px;
-    background-color: purple;
+    margin-top: 10px;
+    width: 590px;
+    height: 470px;
+/*     background-color: purple; */
     float: left;
     margin-left: 10px;
 }
 .jd-clo3{
     width: 190px;
+    height: 470px;
+/*     background-color: blue; */
+    float: left;
+    margin: 10px 10px 0px 10px;
+}
+.jd-clo3 .zhongjian{
+    margin: 7px 0;
+}
+.jd-clo4{
+    width: 190px;
     height: 480px;
-    background-color: yellow;
+    
     float: right;
+    padding-top: 10px;
+}
+
+.jd-clo4-t{
+    height: 140px;
+    width: 190px;
+    background-color: #fff;
+    margin: 0;
+/*     position: relative; */
+    
+/*     background-color: pink; */
+}
+
+.jd-clo4-t-touxiang{
+    position: relative;
+}
+
+.jd-clo4-t-touxiang a{
+    margin: 0;
+    padding: 4px;
+    height: 55px;
+    width: 55px;
+/*     border: 1px solid #ccc; */
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    margin-left: -34px;
+    background-color: #e7e7e7;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+.jd-clo4-t-touxiang a img{
+    margin: 0;
+    padding: 0;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+.welcome{
+    padding-top: 60px;
+}
+.welcome p{
+    line-height: 20px;
+    color: #888;
+    text-align: center;
+    font-size: 12px;
+}
+.welcome p a{
+    line-height: 20px;
+    color: #666;
+    text-align: center;
+    font-size: 12px;
+}
+.welcome p a:hover{
+    color: #f10215;
+}
+
+.fuli{
+    padding-top: 12px;
+    text-align: center;
+}
+.fuli a{
+    display: inline-block;
+    font-size: 13px;
+    width: 70px;
+    height: 25px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    margin: 0 5px;
+    text-align: center; /* 水平居中 */
+    line-height: 25px;  /* 垂直居中 */
+    border-radius: 12px;
+}
+
+.fuli .xinren{
+    background-color: #fff;
+    color: #f10215;
+}
+.fuli .xinren:hover{
+    color: #fff;
+    background-color: #e43f3b;;
+}
+.fuli .huiyuan{
+    background-color: #363634;
+    color: #e5d790;
+}
+.fuli .huiyuan:hover{
+    color: #fff;
+    background-color: #e43f3b;;
+}
+
+
+
+.jd-clo4-m{
+    padding: 15px 15px 0 15px;
+    height: 130px;
+/*     background-color: pink; */
+    margin: 0;
+    background-color: #fff;
+}
+
+.cuxiao{
+    
+    font-size: 12px;
+    color: #333;
+}
+.cuxiao span{
+    margin: 10px;
+}
+.cuxiao a{
+    float: right;
+    color: #333;
+}
+.cuxiao a:hover{
+    color: #f10215;
+}
+.news {
+    height: 95px;
+    margin-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+.news a{
+    color: #666;
+    font-size: 12px;
+    line-height: 22px;
+}
+.news a:hover{
+    color: #f10215;
+}
+
+
+
+.jd-clo4-b{
+    height: 185px;
+    background-color: #fff;
+    padding: 0px 0px 0px 15px;
 }

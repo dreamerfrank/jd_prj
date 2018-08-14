@@ -378,7 +378,7 @@ a{
     height: 30px;
 }
 .help dd {
-    height: 22px;
+/*     height: 22px; */
 }
 .help dd a{
     color: #727272;
