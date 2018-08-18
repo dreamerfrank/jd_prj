@@ -96,7 +96,7 @@ a{
 /* 快捷导航栏开始 */
 .shortcut{
     height: 30px;
-    line-height: 30px;
+    line-height: 30px;  /* 行高 */
     background-color: #E3E4E5;
     border-bottom: 1px solid #DDDDDD;
     color:#9D9D9D;
@@ -173,6 +173,8 @@ a{
     background-color: #fff;
     box-shadow: 0 -12px 10px rgba(0, 0, 0, 0.2);    /* 水平阴影 盒子阴影  工具  （黑色 透明度）*/
 }
+/* box-shadow:水平位置 垂直位置 模糊距离 阴影尺寸（影子大小） 阴影颜色  内/外阴影； */
+
 .logo h1{
     margin: 0;
 }
@@ -181,7 +183,7 @@ a{
     width: 190px;
     height: 170px;
     background: url(../images/logo.png) no-repeat;
-    text-indent: -999px;
+    text-indent: -999px;        /* text-indent:首行缩进 */
     overflow: hidden;   /* 超出部分就隐藏 */
 }
 
@@ -199,7 +201,7 @@ a{
     height: 33px;
     border: 1px solid #f10215;
     padding-left:5px;     
-    outline: none;
+    outline: none;      /* 是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用。 */
     color: #989898;
     float: left;
 }
@@ -274,7 +276,7 @@ a{
     line-height: 16px;
     font-size: 12px;
     padding: 0 3px;
-    border-radius: 7px;
+    border-radius: 7px;     /* 圆角矩形 */
     color: #fff;
 }
 
@@ -357,7 +359,7 @@ a{
     font-weight: 700;
 }
 .service_unit .kuai{
-    background-position: 0 -43px;
+    background-position: 0 -43px;   /* 精灵图位置定位 */
 }
 .service_unit .hao{
     background-position: 0 -86px;
@@ -399,7 +401,7 @@ a{
     background: url(../images/ico_footer.png) no-repeat;
 }
 .cover dt{
-    text-align: center;
+    text-align: center; /* text-align属性用于设置文本内容的水平对齐 */
 }
 .help .info{
     width: 175px;

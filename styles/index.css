@@ -7,7 +7,7 @@
     height: 480px;
 /*     background-color: skyblue; */
     position: relative;
-    z-index: 1;     /* 只有定位的盒子才有z-index */
+    z-index: 1;     /*叠放次序 只有定位的盒子才有z-index */
 }
 .ad{
     height: 480px;
@@ -150,7 +150,7 @@
 }
 .fuli .xinren:hover{
     color: #fff;
-    background-color: #e43f3b;;
+    background-color: #e43f3b;
 }
 .fuli .huiyuan{
     background-color: #363634;
@@ -158,7 +158,7 @@
 }
 .fuli .huiyuan:hover{
     color: #fff;
-    background-color: #e43f3b;;
+    background-color: #e43f3b;
 }
 
 
@@ -199,7 +199,6 @@
 .news a:hover{
     color: #f10215;
 }
-
 
 
 .jd-clo4-b{
